@@ -4,6 +4,7 @@ import {VitePluginFonts} from 'vite-plugin-fonts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: '/votitt/',
     plugins: [
         react(),
         VitePluginFonts({
